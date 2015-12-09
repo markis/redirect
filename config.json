@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "redirects": {
+    "localhost": {
+      "host": "http://www.example.com",
+      "code": 301
+    },
+    "*": {
+      "host": "http://www.markistaylor.com",
+      "code": 301
+    }
+  }
+}
